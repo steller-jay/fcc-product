@@ -4,99 +4,118 @@
 <head>
     <title>FCC Product Page</title>
     <link href="css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4f7a1b3c20.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-        <!-- planet icon here -->
-        <p>Magrathea Industries</p>
-        <nav>
-            <ul>
-                <li>Features</li>
-                <li>How It Works</li>
-                <li>Pricing</li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="hero">
-            <h1>The Legendary Planet of Magrathea</h1>
-            <p><em>Fine Planetworks</em></p>
-            <p>Custom made luxury planets</p>
-            <!-- form with email address -->
-            <p>enter your email address</p>
-            <p>get started</p>
-        </div> <!-- end hero -->
+    <nav>
+        <ul>
+            <li>Magrathea Industries</li>
+            <li>Features</li>
+            <li>How It Works</li>
+            <li>Pricing</li>
+        </ul>
+    </nav>
 
-        <div class="features">
-            <h2>Premium Materials</h2>
-            <p>All planets are constructed to your exacting standard using the finest custom-built atoms. You will not
-                find a better source of custom planets.</p>
-            <h2>Fast Delivery</h2>
-            <p>Don't wait for natural evolution to create a world of your own liking. Our planets can be created within
-                months by our planetworks.</p>
-            <h2>Quality Assurance</h2>
-            <p>Every custom made planet is inspected by highly trained planet inspectors. Ask about our mouse-free
-                guarantee.</p>
-        </div> <!-- end features -->
+    <h1>The Legendary Planet of Magrathea</h1>
+    <p>Fine Planetworks | Custom made luxury planets</p>
+    <form>
+        <input type="email" placeholder="enter your email address">
+        <button>Get Started</button>
+    </form>
 
-        <div class="video">
-            <p><em>insert video here</em></p>
-        </div> <!-- end video -->
-
-        <div class="pricing">
-            <div class="col">
-                <h3>Minor Planet</h3>
-                <p>600 Googols</p>
-                <ul>
-                    <li>Small custom planet</li>
-                    <li>Rocky surface</li>
-                    <li>3 oceans</li>
-                    <li>5 landmasses</li>
-                </ul>
-                <p>Select</p>
-            </div> <!-- end col-->
-
-            <div class="col">
-                <h3>Mid-sized Planet</h3>
-                <p>900 Googols</p>
-                <ul>
-                    <li>Life-filled custom planet</li>
-                    <li>Custom oceans</li>
-                    <li>Custom landmasses</li>
-                    <li>Up to 300 fjords</li>
-                </ul>
-                <p>Select</p>
-            </div> <!-- end col-->
-
-            <div class="col">
-                <h3>Gas Giant</h3>
-                <p>1200 Googols</p>
-                <ul>
-                    <li>Small metal core</li>
-                    <li>Spacious custom gas atmosphere</li>
-                    <li>Rings and moons included</li>
-                    <li>Airborne cities at extra cost</li>
-                </ul>
-                <p>Select</p>
-            </div> <!-- end col-->
-
-        </div> <!-- end pricing -->
-
-        <footer>
-            <div class="terms-links">
-                <ul>
-                    <li>Privacy</li>
-                    <li>Terms</li>
-                    <li>Contact</li>
-                </ul>
-            </div> <!-- end terms -->
-
-            <div class="copyright">
-                <p>Copyright 2021, Magrathea Industries</p>
+    <div id='features'>
+        <div class='columns'>
+            <div class='col-left'>
+                <i class="fas fa-meteor fa-3x"></i>
             </div>
-        </footer>
-    </main>
+            <div class='col-right'>
+                <h2>Premium Materials</h2>
+                <p>All planets are constructed to your exacting standard using the finest custom-built atoms. You will
+                    not find a better source of custom planets.</p>
+            </div>
+        </div> <!-- end columns-->
+        <div class='columns'>
+            <div class='col-left'>
+                <i class="fas fa-meteor fa-3x"></i>
+            </div>
+            <div class="col-right">
+                <h2>Fast Delivery</h2>
+                <p>Don't wait for natural evolution to create a world of your own liking. Our planets can be created
+                    within months by our planetworks.</p>
+            </div>
+        </div> <!-- end columns-->
+        <div class='columns'>
+            <div class='col-left'>
+                <i class="fas fa-meteor fa-3x"></i>
+            </div>
+            <div class="col-right">
+                <h2>Quality Assurance</h2>
+                <p>Every custom made planet is inspected by highly trained planet inspectors. Ask about our mouse-free
+                    guarantee.</p>
+            </div>
+        </div> <!-- end columns-->
+    </div> <!-- end features-->
+
+    <div id='video'>
+        <h2>video goes here</h2>
+    </div> <!-- end video-->
+
+    <div id='pricing'>
+        <div class="price-col">
+            <div class="price-header">
+                <h3>Minor Planet</h3>
+            </div>
+            <div class='pricing'>
+                <p>600 Googols</p>
+            </div>
+            <p>Small custom planet</p>
+            <p>Rocky surface</p>
+            <p>3 oceans</p>
+            <p>5 landmasses</p>
+            <div class='prc-btn'>
+                <p>select</p>
+            </div>
+        </div> <!-- end price-col -->
+        <div class="price-col">
+            <div class="price-header">
+                <h3>Mid-sized Planet</h3>
+            </div>
+            <div class='pricing'>
+                <p>900 Googols</p>
+            </div>
+            <p>Life-filled custom planet</p>
+            <p>Custom oceans</p>
+            <p>Custom landmasses</p>
+            <p>Up to 300 Ffords</p>
+            <div class='prc-btn'>
+                <p>select</p>
+            </div>
+        </div> <!-- end price-col -->
+        <div class="price-col">
+            <div class="price-header">
+                <h3>Gas Giant</h3>
+            </div>
+            <div class='pricing'>
+                <p>1200 Googols</p>
+            </div>
+            <p>Small metal core</p>
+            <p>Spacious custom gas atmosphere</p>
+            <p>Airborne cities at extra cost</p>
+            <div class='prc-btn'>
+                <p>select</p>
+            </div>
+        </div> <!-- end price-col -->
+    </div> <!-- end pricing-->
+
+    <div id='footer'>
+        <ul>
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>Contact</li>
+            <li>Copyright 2021, Magrathea Industries</li>
+        </ul>
+    </div>
 </body>
 
 </html>
