@@ -8,26 +8,35 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li>Magrathea Industries</li>
-            <li>Features</li>
-            <li>How It Works</li>
-            <li>Pricing</li>
-        </ul>
-    </nav>
 
-    <h1>The Legendary Planet of Magrathea</h1>
-    <p>Fine Planetworks | Custom made luxury planets</p>
-    <form>
-        <input type="email" placeholder="enter your email address">
-        <button>Get Started</button>
-    </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!-- note that the id attributes are used for the fcc test validation code-->
+
+    <header id="header">
+        <nav id="nav-bar">
+            <ul>
+                <img src="images/icon.png" id="header-img" alt="">
+                <li>Magrathea Industries</li>
+                <li class="push-right"><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#video" class="nav-link">How It Works</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id='heading'>
+        <h1>The Legendary Planet of Magrathea</h1>
+        <p>Fine Planetworks | Custom made luxury planets</p>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input type="email" placeholder="enter your email address" id="email" name="email" required>
+            <input type="submit" id="submit" value="Get Started">
+        </form>
+    </div>
 
     <div id='features'>
         <div class='columns'>
             <div class='col-left'>
-                <i class="fas fa-meteor fa-3x"></i>
+                <i class="fas fa-atom fa-3x"></i>
             </div>
             <div class='col-right'>
                 <h2>Premium Materials</h2>
@@ -47,7 +56,7 @@
         </div> <!-- end columns-->
         <div class='columns'>
             <div class='col-left'>
-                <i class="fas fa-meteor fa-3x"></i>
+                <i class="fas fa-award fa-3x"></i>
             </div>
             <div class="col-right">
                 <h2>Quality Assurance</h2>
@@ -57,8 +66,11 @@
         </div> <!-- end columns-->
     </div> <!-- end features-->
 
-    <div id='video'>
-        <h2>video goes here</h2>
+    <div id='video-div'>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/6broMc3j8OQ"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
     </div> <!-- end video-->
 
     <div id='pricing'>
@@ -100,6 +112,7 @@
                 <p>1200 Googols</p>
             </div>
             <p>Small metal core</p>
+            <p>Mining facility included</p>
             <p>Spacious custom gas atmosphere</p>
             <p>Airborne cities at extra cost</p>
             <div class='prc-btn'>
@@ -110,11 +123,11 @@
 
     <div id='footer'>
         <ul>
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>Contact</li>
-            <li>Copyright 2021, Magrathea Industries</li>
+            <li class="push-right"><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
+        <p>Copyright 2021, Magrathea Industries</p>
     </div>
 </body>
 
